@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6ff623ac83760070bbef1b3b36bbe66b194cf101",
     "author": "Gabriel Claros",
     "commit": {
       "date": "2026-03-05T13:34:33.000Z",
       "message": "feat: mostrar precio por item",
-      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/6ff623ac83760070bbef1b3b36bbe66b194cf101"
     },
     "stats": {
       "total": 33,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-03-05T13:48:35.000Z",
+      "message": "feat: mostrar precio neto, cantidad por precio",
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 18,
+      "deletions": 2,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

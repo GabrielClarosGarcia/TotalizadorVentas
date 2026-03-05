@@ -22,9 +22,39 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6ff623ac83760070bbef1b3b36bbe66b194cf101",
     "commitName": "feat: mostrar precio por item",
     "commitTimestamp": 1772717674038,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1772717853500,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772717893098,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772717937508,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar precio neto, cantidad por precio",
+    "commitTimestamp": 1772718515344,
+    "testId": 2
   }
 ]
