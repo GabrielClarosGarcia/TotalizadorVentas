@@ -1,8 +1,30 @@
 [
   {
-    "commitId": "HEAD",
+    "commitId": "150b3f52ad9ac4302263f5104b94e777d7a98af5",
     "commitName": "feat: mostrar cantidad de items ingresados",
     "commitTimestamp": 1772717155491,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1772717261012,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1772717299885,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar precio por item",
+    "commitTimestamp": 1772717674038,
+    "testId": 1
   }
 ]
