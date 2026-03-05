@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2f7257e16aa67f632b47d72ab4338cffbc747fab",
     "author": "Gabriel Claros",
     "commit": {
       "date": "2026-03-05T13:48:35.000Z",
       "message": "feat: mostrar precio neto, cantidad por precio",
-      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/2f7257e16aa67f632b47d72ab4338cffbc747fab"
     },
     "stats": {
       "total": 20,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-03-05T14:00:11.000Z",
+      "message": "feat: mostrar el porcentaje de impuesto que tiene un estado",
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 54,
+      "additions": 48,
+      "deletions": 6,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
