@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-03-05T13:25:54.000Z",
+      "message": "feat: mostrar cantidad de items ingresados",
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 81,
+      "additions": 54,
+      "deletions": 27,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
