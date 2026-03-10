@@ -247,17 +247,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "95e1ed3aa95084510d60a81bc7a1f8372abcf52b",
     "author": "Gabriel Claros",
     "commit": {
       "date": "2026-03-10T05:54:12.000Z",
       "message": "refactor: mostrar cantidad de descuento a lado de su porcentaje y cantidad de impuesto a lado de su porcentaje",
-      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/95e1ed3aa95084510d60a81bc7a1f8372abcf52b"
     },
     "stats": {
       "total": 19,
       "additions": 15,
       "deletions": 4,
+      "date": "2026-03-10"
+    },
+    "coverage": 95.92,
+    "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-03-10T06:04:05.000Z",
+      "message": "refactor: mostrar seleccion de estado desde una lista",
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
       "date": "2026-03-10"
     },
     "coverage": 95.92,

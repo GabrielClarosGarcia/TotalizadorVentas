@@ -286,9 +286,15 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "95e1ed3aa95084510d60a81bc7a1f8372abcf52b",
     "commitName": "refactor: mostrar cantidad de descuento a lado de su porcentaje y cantidad de impuesto a lado de su porcentaje",
     "commitTimestamp": 1773122053076,
     "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: mostrar seleccion de estado desde una lista",
+    "commitTimestamp": 1773122645505,
+    "testId": 14
   }
 ]
