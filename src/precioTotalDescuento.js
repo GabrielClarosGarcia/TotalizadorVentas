@@ -1,5 +1,11 @@
 function precioTotalDescuento(precioNeto) {
 
+  if (precioNeto >= 30000) {
+    const descuento = (precioNeto * 15) / 100;
+    return precioNeto - descuento;
+  }
+
+
   if (precioNeto >= 10000) {
     const descuento = (precioNeto * 10) / 100;
     return precioNeto - descuento;
