@@ -14,4 +14,8 @@ describe("Precio total con descuento", () => {
     expect(precioTotalDescuento(7000)).toEqual(6510);
   });
 
+  it("deberia aplicar descuento de 10% cuando el precio neto es 10000", () => {
+    expect(precioTotalDescuento(10000)).toEqual(9000);
+  });
+
 });
