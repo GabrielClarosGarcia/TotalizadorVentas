@@ -228,17 +228,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "43f54a5e4ff95fffc5b383e8a1cdf2463609b711",
     "author": "Gabriel Claros",
     "commit": {
       "date": "2026-03-10T05:29:42.000Z",
       "message": "feat: Mostrar el valor del porcentaje del descuento",
-      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/43f54a5e4ff95fffc5b383e8a1cdf2463609b711"
     },
     "stats": {
       "total": 47,
       "additions": 47,
       "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 95.92,
+    "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-03-10T05:54:12.000Z",
+      "message": "refactor: mostrar cantidad de descuento a lado de su porcentaje y cantidad de impuesto a lado de su porcentaje",
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 15,
+      "deletions": 4,
       "date": "2026-03-10"
     },
     "coverage": 95.92,

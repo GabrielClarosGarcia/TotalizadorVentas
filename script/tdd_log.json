@@ -280,9 +280,15 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "43f54a5e4ff95fffc5b383e8a1cdf2463609b711",
     "commitName": "feat: Mostrar el valor del porcentaje del descuento",
     "commitTimestamp": 1773120583069,
     "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: mostrar cantidad de descuento a lado de su porcentaje y cantidad de impuesto a lado de su porcentaje",
+    "commitTimestamp": 1773122053076,
+    "testId": 13
   }
 ]

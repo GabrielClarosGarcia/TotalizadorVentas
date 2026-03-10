@@ -23,8 +23,12 @@ form.addEventListener("submit", (event) => {
   const codigoEstado = estado.value;
 
   const precioNeto = calcularPrecioNeto(cantidadItems, precioItem);
+
   const porcentajeImpuesto = obtenerImpuesto(codigoEstado);
   const porcentajeDescuento = obtenerPorcentajeDescuento(precioNeto);
+
+  const montoImpuesto = (precioNeto * porcentajeImpuesto) / 100;
+  const montoDescuento = (precioNeto * porcentajeDescuento) / 100;
 
   let total = precioNeto;
 
@@ -43,15 +47,22 @@ form.addEventListener("submit", (event) => {
     "): $" +
     precioNeto +
     "</p>" +
+
     "<p>Descuento aplicado: " +
     porcentajeDescuento +
-    "%</p>" +
+    "% ($" +
+    montoDescuento +
+    ")</p>" +
+
     "<p>Impuesto para " +
     codigoEstado +
     " (" +
     porcentajeImpuesto +
-    "%)</p>" +
-    "<p>Precio total: $" +
+    "%): $" +
+    montoImpuesto +
+    "</p>" +
+
+    "<p><b>Precio total (descuento e impuesto): $" +
     total +
-    "</p>";
+    "</b></p>";
 });
