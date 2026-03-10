@@ -326,9 +326,23 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "df21df0515808052502c171668fb93046c8ee0ff",
     "commitName": "feat: mostrar descuento por categorias",
     "commitTimestamp": 1773123535093,
     "testId": 17
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1773123810532,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar costo de envio por el peso volumetrico",
+    "commitTimestamp": 1773124063039,
+    "testId": 18
   }
 ]

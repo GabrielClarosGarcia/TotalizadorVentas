@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "df21df0515808052502c171668fb93046c8ee0ff",
     "author": "Gabriel Claros",
     "commit": {
       "date": "2026-03-10T06:18:54.000Z",
       "message": "feat: mostrar descuento por categorias",
-      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/df21df0515808052502c171668fb93046c8ee0ff"
     },
     "stats": {
       "total": 50,
@@ -338,6 +338,25 @@
     },
     "coverage": 96.92,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-03-10T06:27:42.000Z",
+      "message": "feat: mostrar costo de envio por el peso volumetrico",
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 116,
+      "additions": 78,
+      "deletions": 38,
+      "date": "2026-03-10"
+    },
+    "coverage": 97.44,
+    "test_count": 39,
     "failed_tests": 0,
     "conclusion": "success"
   }
