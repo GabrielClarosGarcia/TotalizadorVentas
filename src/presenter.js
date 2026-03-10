@@ -8,11 +8,12 @@ import calcularPrecioTotalNV from "./precioTotalNV.js";
 import calcularPrecioTotalUT from "./precioTotalUT.js";
 import precioTotalDescuento from "./precioTotalDescuento.js";
 import obtenerPorcentajeDescuento from "./porcentajeDescuento.js";
+import obtenerImpuestoCategoria from "./impuestoCategoria.js";
 
 const cantidad = document.querySelector("#cantidad-items");
 const precio = document.querySelector("#precio-item");
 const estado = document.querySelector("#estado");
-const categoria = document.querySelector("#categoria");   // NUEVO
+const categoria = document.querySelector("#categoria");
 
 const form = document.querySelector("#totalizar-form");
 const div = document.querySelector("#resultado-div");
@@ -23,11 +24,15 @@ form.addEventListener("submit", (event) => {
   const cantidadItems = Number.parseInt(cantidad.value);
   const precioItem = Number.parseFloat(precio.value);
   const codigoEstado = estado.value;
-  const categoriaProducto = categoria.value;  // NUEVO
+  const categoriaProducto = categoria.value;
 
   const precioNeto = calcularPrecioNeto(cantidadItems, precioItem);
 
-  const porcentajeImpuesto = obtenerImpuesto(codigoEstado);
+  const impuestoEstado = obtenerImpuesto(codigoEstado);
+  const impuestoCategoria = obtenerImpuestoCategoria(categoriaProducto);
+
+  const porcentajeImpuesto = impuestoEstado + impuestoCategoria;
+
   const porcentajeDescuento = obtenerPorcentajeDescuento(precioNeto);
 
   const montoImpuesto = (precioNeto * porcentajeImpuesto) / 100;
@@ -59,9 +64,19 @@ form.addEventListener("submit", (event) => {
     montoDescuento +
     ")</p>" +
 
-    "<p>Impuesto para " +
+    "<p>Impuesto estado " +
     codigoEstado +
     " (" +
+    impuestoEstado +
+    "%)</p>" +
+
+    "<p>Impuesto categoría " +
+    categoriaProducto +
+    " (" +
+    impuestoCategoria +
+    "%)</p>" +
+
+    "<p>Impuesto total (" +
     porcentajeImpuesto +
     "%): $" +
     montoImpuesto +

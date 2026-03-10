@@ -298,9 +298,31 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b60759be07f45a66f378ed0bb9302a7fd994ce48",
     "commitName": "refactor: mostrar seleccion de categoria de producto desde una lista",
     "commitTimestamp": 1773122821244,
     "testId": 15
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1773123032742,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1773123086694,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar impuesto por categorias",
+    "commitTimestamp": 1773123339128,
+    "testId": 16
   }
 ]

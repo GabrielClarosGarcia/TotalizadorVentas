@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b60759be07f45a66f378ed0bb9302a7fd994ce48",
     "author": "Gabriel Claros",
     "commit": {
       "date": "2026-03-10T06:07:01.000Z",
       "message": "refactor: mostrar seleccion de categoria de producto desde una lista",
-      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/b60759be07f45a66f378ed0bb9302a7fd994ce48"
     },
     "stats": {
       "total": 20,
@@ -300,6 +300,25 @@
     },
     "coverage": 95.92,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-03-10T06:15:38.000Z",
+      "message": "feat: mostrar impuesto por categorias",
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 59,
+      "additions": 55,
+      "deletions": 4,
+      "date": "2026-03-10"
+    },
+    "coverage": 96.55,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }
