@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bb7fc8461a9e6acaec51502885daf6644acce8dc",
     "author": "Gabriel Claros",
     "commit": {
       "date": "2026-03-10T06:34:43.000Z",
       "message": "feat: mostrar descuento en el costo de envio segun tipo de cliente",
-      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/bb7fc8461a9e6acaec51502885daf6644acce8dc"
     },
     "stats": {
       "total": 67,
@@ -376,6 +376,25 @@
     },
     "coverage": 97.65,
     "test_count": 43,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-03-10T06:43:56.000Z",
+      "message": "feat: mostrar descuentos especiales",
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 48,
+      "additions": 43,
+      "deletions": 5,
+      "date": "2026-03-10"
+    },
+    "coverage": 97.78,
+    "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
   }

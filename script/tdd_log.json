@@ -354,9 +354,23 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bb7fc8461a9e6acaec51502885daf6644acce8dc",
     "commitName": "feat: mostrar descuento en el costo de envio segun tipo de cliente",
     "commitTimestamp": 1773124483742,
     "testId": 19
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1773124767788,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar descuentos especiales",
+    "commitTimestamp": 1773125036329,
+    "testId": 20
   }
 ]

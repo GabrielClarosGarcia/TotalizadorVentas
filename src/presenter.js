@@ -7,6 +7,7 @@ import obtenerDescuentoCategoria from "./descuentoCategoria.js";
 import obtenerPorcentajeDescuento from "./porcentajeDescuento.js";
 import obtenerCostoEnvio from "./envio.js";
 import obtenerDescuentoEnvio from "./cliente.js";
+import obtenerDescuentoEspecial from "./descuentoEspecial.js";
 
 const cantidad = document.querySelector("#cantidad-items");
 const precio = document.querySelector("#precio-item");
@@ -51,7 +52,13 @@ form.addEventListener("submit", (event) => {
 
   const envioFinal = costoEnvioTotal - descuentoEnvio;
 
-  const totalFinal = subtotal + envioFinal;
+  const descuentoEspecial = obtenerDescuentoEspecial(
+    tipoCliente,
+    precioNeto,
+    categoriaProducto
+  );
+
+  const totalFinal = subtotal + envioFinal - descuentoEspecial;
 
   div.innerHTML =
     "<p>Precio neto (" +
@@ -74,10 +81,6 @@ form.addEventListener("submit", (event) => {
     montoDescuento +
     "</p>" +
 
-    "<p>Costo envio unidad: $" +
-    costoEnvioUnidad +
-    "</p>" +
-
     "<p>Costo envio total: $" +
     costoEnvioTotal +
     "</p>" +
@@ -90,6 +93,10 @@ form.addEventListener("submit", (event) => {
 
     "<p>Envio final: $" +
     envioFinal +
+    "</p>" +
+
+    "<p>Descuento especial: $" +
+    descuentoEspecial +
     "</p>" +
 
     "<p><b>Total final: $" +
