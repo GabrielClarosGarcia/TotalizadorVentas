@@ -242,9 +242,47 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d150043a21136208aa99bba7460b59bac80ddf99",
     "commitName": "feat: Mostrar el precio total con el Porcentaje de descuento que corresponde a 30000",
     "commitTimestamp": 1773119867430,
     "testId": 11
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1773120243633,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 3,
+    "numTotalTests": 23,
+    "timestamp": 1773120362437,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1773120426522,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1773120463370,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el valor del porcentaje del descuento",
+    "commitTimestamp": 1773120583069,
+    "testId": 12
   }
 ]

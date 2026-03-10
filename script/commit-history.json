@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d150043a21136208aa99bba7460b59bac80ddf99",
     "author": "Gabriel Claros",
     "commit": {
       "date": "2026-03-10T05:17:47.000Z",
       "message": "feat: Mostrar el precio total con el Porcentaje de descuento que corresponde a 30000",
-      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/d150043a21136208aa99bba7460b59bac80ddf99"
     },
     "stats": {
       "total": 10,
@@ -224,6 +224,25 @@
     },
     "coverage": 97.37,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-03-10T05:29:42.000Z",
+      "message": "feat: Mostrar el valor del porcentaje del descuento",
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 47,
+      "additions": 47,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 95.92,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }
