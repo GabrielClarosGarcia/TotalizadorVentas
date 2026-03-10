@@ -292,9 +292,15 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e4714e6d531e58e16add907ca91f86f14bbf0445",
     "commitName": "refactor: mostrar seleccion de estado desde una lista",
     "commitTimestamp": 1773122645505,
     "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: mostrar seleccion de categoria de producto desde una lista",
+    "commitTimestamp": 1773122821244,
+    "testId": 15
   }
 ]
