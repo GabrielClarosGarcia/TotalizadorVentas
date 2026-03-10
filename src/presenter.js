@@ -5,6 +5,8 @@ import obtenerImpuesto from "./impuesto.js";
 import calcularPrecioTotalCA from "./precioTotalCA.js";
 import calcularPrecioTotalAL from "./precioTotalAL.js";
 import calcularPrecioTotalNV from "./precioTotalNV.js";
+import calcularPrecioTotalUT from "./precioTotalUT.js";
+import precioTotalDescuento from "./precioTotalDescuento.js";
 
 const cantidad = document.querySelector("#cantidad-items");
 const precio = document.querySelector("#precio-item");
@@ -24,17 +26,12 @@ form.addEventListener("submit", (event) => {
 
   let total = precioNeto;
 
-  if (codigoEstado === "CA") {
-    total = calcularPrecioTotalCA(precioNeto);
-  }
+  if (codigoEstado === "CA") total = calcularPrecioTotalCA(precioNeto);
+  if (codigoEstado === "AL") total = calcularPrecioTotalAL(precioNeto);
+  if (codigoEstado === "NV") total = calcularPrecioTotalNV(precioNeto);
+  if (codigoEstado === "UT") total = calcularPrecioTotalUT(precioNeto);
 
-  if (codigoEstado === "AL") {
-    total = calcularPrecioTotalAL(precioNeto);
-  }
-
-  if (codigoEstado === "NV") {
-    total = calcularPrecioTotalNV(precioNeto);
-  }
+  total = precioTotalDescuento(total);
 
   div.innerHTML =
     "<p>Precio neto (" +
@@ -49,7 +46,7 @@ form.addEventListener("submit", (event) => {
     " (" +
     porcentajeImpuesto +
     "%)</p>" +
-    "<p>Precio total (+impuesto): $" +
+    "<p>Precio total: $" +
     total +
     "</p>";
 });

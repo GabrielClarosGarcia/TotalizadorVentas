@@ -148,9 +148,47 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "78f29cf71ccb91eadb2e9846f39ec49c3130dffc",
     "commitName": "feat: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de NV",
     "commitTimestamp": 1773117165843,
     "testId": 6
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1773117310085,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1773117338044,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1773118314316,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1773118357769,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el precio total con el Porcentaje de descuento que corresponde a 1000",
+    "commitTimestamp": 1773118705849,
+    "testId": 7
   }
 ]
