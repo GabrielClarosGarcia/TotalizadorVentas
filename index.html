@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <meta charset="UTF-8">
   <title>Totalizador</title>
 </head>
 
@@ -11,17 +12,17 @@
 <form id="totalizar-form">
 
 <label>Cantidad de items:</label>
-<input type="number" id="cantidad-items" />
+<input type="number" id="cantidad-items" required />
 
 <br><br>
 
 <label>Precio por item:</label>
-<input type="number" id="precio-item" />
+<input type="number" id="precio-item" step="0.01" required />
 
 <br><br>
 
 <label>Codigo de estado:</label>
-<input type="text" id="estado" placeholder="CA, NV, TX..." />
+<input type="text" id="estado" placeholder="CA, AL..." required />
 
 <br><br>
 
