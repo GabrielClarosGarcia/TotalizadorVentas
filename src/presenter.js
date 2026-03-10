@@ -2,6 +2,7 @@ import mostrarCantidad from "./cantidad.js";
 import mostrarPrecio from "./precio.js";
 import calcularPrecioNeto from "./precioNeto.js";
 import obtenerImpuesto from "./impuesto.js";
+import calcularPrecioTotalCA from "./precioTotalCA.js";
 
 const cantidad = document.querySelector("#cantidad-items");
 const precio = document.querySelector("#precio-item");
@@ -13,13 +14,32 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const cantidadItems = Number.parseInt(cantidad.value);
-  const precioItem = Number.parseInt(precio.value);
+  const precioItem = Number.parseFloat(precio.value);
   const codigoEstado = estado.value;
 
   const precioNeto = calcularPrecioNeto(cantidadItems, precioItem);
-  const impuesto = obtenerImpuesto(codigoEstado);
+  const porcentajeImpuesto = obtenerImpuesto(codigoEstado);
+
+  let total = precioNeto;
+
+  if (codigoEstado === "CA") {
+    total = calcularPrecioTotalCA(precioNeto);
+  }
 
   div.innerHTML =
-    "<p>Precio neto (" + mostrarCantidad(cantidadItems)+"*$"+ mostrarPrecio(precioItem)+"): $" + precioNeto + "</p>" +
-    "<p>Impuesto para " + codigoEstado + ": " + impuesto + "%</p>";
+    "<p>Precio neto (" +
+    mostrarCantidad(cantidadItems) +
+    "*$" +
+    mostrarPrecio(precioItem) +
+    "): $" +
+    precioNeto +
+    "</p>" +
+    "<p>Impuesto para " +
+    codigoEstado +
+    " (" +
+    porcentajeImpuesto +
+    "%)</p>" +
+    "<p>Precio total (+impuesto): $" +
+    total +
+    "</p>";
 });

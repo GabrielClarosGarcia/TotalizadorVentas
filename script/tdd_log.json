@@ -74,9 +74,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9e9510274ffaa0b1fd948be137f52d4b42cf3e8c",
     "commitName": "feat: mostrar el porcentaje de impuesto que tiene un estado",
     "commitTimestamp": 1772719211415,
     "testId": 3
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1773116182073,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1773116269984,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de CA",
+    "commitTimestamp": 1773116423729,
+    "testId": 4
   }
 ]

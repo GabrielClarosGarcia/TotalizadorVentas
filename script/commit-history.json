@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9e9510274ffaa0b1fd948be137f52d4b42cf3e8c",
     "author": "Gabriel Claros",
     "commit": {
       "date": "2026-03-05T14:00:11.000Z",
       "message": "feat: mostrar el porcentaje de impuesto que tiene un estado",
-      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/9e9510274ffaa0b1fd948be137f52d4b42cf3e8c"
     },
     "stats": {
       "total": 54,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-03-10T04:20:23.000Z",
+      "message": "feat: Mostrar el precio total con el valor del impuesto según el precio neto y el porcentaje de CA",
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 47,
+      "additions": 41,
+      "deletions": 6,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
