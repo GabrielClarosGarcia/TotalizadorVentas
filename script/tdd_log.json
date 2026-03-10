@@ -208,9 +208,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "db833a692029aa22caa9429d73032c5f0905763b",
     "commitName": "feat: Mostrar el precio total con el Porcentaje de descuento que corresponde a 3000",
     "commitTimestamp": 1773119081020,
     "testId": 8
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1773119245524,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Mostrar el precio total con el Porcentaje de descuento que corresponde a 7000",
+    "commitTimestamp": 1773119575957,
+    "testId": 9
   }
 ]
