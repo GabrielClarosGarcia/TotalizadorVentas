@@ -320,9 +320,15 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "03b89fb98fb4ba6a79294a8d355fa783aa093bab",
     "commitName": "feat: mostrar impuesto por categorias",
     "commitTimestamp": 1773123339128,
     "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar descuento por categorias",
+    "commitTimestamp": 1773123535093,
+    "testId": 17
   }
 ]

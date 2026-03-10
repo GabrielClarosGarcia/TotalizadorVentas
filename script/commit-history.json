@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "03b89fb98fb4ba6a79294a8d355fa783aa093bab",
     "author": "Gabriel Claros",
     "commit": {
       "date": "2026-03-10T06:15:38.000Z",
       "message": "feat: mostrar impuesto por categorias",
-      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/03b89fb98fb4ba6a79294a8d355fa783aa093bab"
     },
     "stats": {
       "total": 59,
@@ -319,6 +319,25 @@
     },
     "coverage": 96.55,
     "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-03-10T06:18:54.000Z",
+      "message": "feat: mostrar descuento por categorias",
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 50,
+      "additions": 46,
+      "deletions": 4,
+      "date": "2026-03-10"
+    },
+    "coverage": 96.92,
+    "test_count": 32,
     "failed_tests": 0,
     "conclusion": "success"
   }
