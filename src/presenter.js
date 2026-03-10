@@ -29,6 +29,19 @@ form.addEventListener("submit", (event) => {
   const pesoVolumetrico = Number.parseFloat(peso.value);
   const tipoCliente = cliente.value;
 
+  // VALIDACIONES
+  if (
+    cantidadItems <= 0 ||
+    precioItem <= 0 ||
+    pesoVolumetrico < 0 ||
+    isNaN(cantidadItems) ||
+    isNaN(precioItem) ||
+    isNaN(pesoVolumetrico)
+  ) {
+    div.innerHTML = "<p style='color:red'>Por favor ingrese valores válidos.</p>";
+    return;
+  }
+
   const precioNeto = calcularPrecioNeto(cantidadItems, precioItem);
 
   const impuestoEstado = obtenerImpuesto(codigoEstado);
@@ -66,40 +79,40 @@ form.addEventListener("submit", (event) => {
     "*$" +
     mostrarPrecio(precioItem) +
     "): $" +
-    precioNeto +
+    precioNeto.toFixed(2) +
     "</p>" +
 
     "<p>Impuesto total (" +
     porcentajeImpuesto +
     "%): $" +
-    montoImpuesto +
+    montoImpuesto.toFixed(2) +
     "</p>" +
 
     "<p>Descuento total (" +
     porcentajeDescuento +
     "%): $" +
-    montoDescuento +
+    montoDescuento.toFixed(2) +
     "</p>" +
 
     "<p>Costo envio total: $" +
-    costoEnvioTotal +
+    costoEnvioTotal.toFixed(2) +
     "</p>" +
 
     "<p>Descuento envio cliente (" +
     porcentajeDescuentoEnvio +
     "%): $" +
-    descuentoEnvio +
+    descuentoEnvio.toFixed(2) +
     "</p>" +
 
     "<p>Envio final: $" +
-    envioFinal +
+    envioFinal.toFixed(2) +
     "</p>" +
 
     "<p>Descuento especial: $" +
-    descuentoEspecial +
+    descuentoEspecial.toFixed(2) +
     "</p>" +
 
     "<p><b>Total final: $" +
-    totalFinal +
+    totalFinal.toFixed(2) +
     "</b></p>";
 });

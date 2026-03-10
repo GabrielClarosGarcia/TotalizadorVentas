@@ -368,9 +368,15 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "56c0f73314d501c3975a041e0112b7104984079e",
     "commitName": "feat: mostrar descuentos especiales",
     "commitTimestamp": 1773125036329,
     "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: validaciones de entrada y formato de resultados",
+    "commitTimestamp": 1773125318845,
+    "testId": 21
   }
 ]

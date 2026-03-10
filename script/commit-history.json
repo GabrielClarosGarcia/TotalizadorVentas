@@ -380,17 +380,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "56c0f73314d501c3975a041e0112b7104984079e",
     "author": "Gabriel Claros",
     "commit": {
       "date": "2026-03-10T06:43:56.000Z",
       "message": "feat: mostrar descuentos especiales",
-      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/56c0f73314d501c3975a041e0112b7104984079e"
     },
     "stats": {
       "total": 48,
       "additions": 43,
       "deletions": 5,
+      "date": "2026-03-10"
+    },
+    "coverage": 97.78,
+    "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Claros",
+    "commit": {
+      "date": "2026-03-10T06:48:38.000Z",
+      "message": "refactor: validaciones de entrada y formato de resultados",
+      "url": "https://github.com/GabrielClarosGarcia/TotalizadorVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 21,
+      "deletions": 8,
       "date": "2026-03-10"
     },
     "coverage": 97.78,
