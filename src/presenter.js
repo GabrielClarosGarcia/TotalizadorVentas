@@ -4,6 +4,7 @@ import calcularPrecioNeto from "./precioNeto.js";
 import obtenerImpuesto from "./impuesto.js";
 import calcularPrecioTotalCA from "./precioTotalCA.js";
 import calcularPrecioTotalAL from "./precioTotalAL.js";
+import calcularPrecioTotalNV from "./precioTotalNV.js";
 
 const cantidad = document.querySelector("#cantidad-items");
 const precio = document.querySelector("#precio-item");
@@ -29,6 +30,10 @@ form.addEventListener("submit", (event) => {
 
   if (codigoEstado === "AL") {
     total = calcularPrecioTotalAL(precioNeto);
+  }
+
+  if (codigoEstado === "NV") {
+    total = calcularPrecioTotalNV(precioNeto);
   }
 
   div.innerHTML =
